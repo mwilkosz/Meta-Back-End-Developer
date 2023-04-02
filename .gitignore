@@ -1,0 +1,24 @@
+# Ignore __pycache__ directories
+__pycache__/
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Django migration files
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore secret keys and configurations
+.env
+*.secret_key
+*.conf
+
+# Ignore development-specific files
+.idea/
+.vscode/
